@@ -1,0 +1,131 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Selected characteristics of health care access and experiences by First Nations people living off reserve, Métis and Inuit, and gender","41100081",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110008101",1;2,"CURRENT - a cube available to the public and that is current","Occasional","2024-01-01","2024-01-01","5",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Selected characteristics of health care access and experiences",,""
+"3","Indigenous group",3,""
+"4","Gender",,""
+"5","Statistics",7;8,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Yes, had an unmet health care need in the past 12 months","","2","1","",,
+"2","No, did not have an unmet health care need in the past 12 months","","3","1","",,
+"2","Yes, consulted a health care provider for a non-urgent primary health care need in the past 12 months","","5","4","",,
+"2","No, did not consult a health care provider for a non-urgent primary health care need in the past 12 months","","6","4","",,
+"2","Same day or next","","8","7","",,
+"2","Two days to less than two weeks","","9","7","",,
+"2","Two weeks or more","","10","7","",,
+"2","Very satisfied or satisfied","","12","11","",,
+"2","Neither satisfied nor dissatisfied","","13","11","",,
+"2","Dissatisfied or very dissatisfied","","14","11","",,
+"2","Excellent or very good perceived mental health","","16","15","",,
+"2","Good perceived mental health","","17","15","",,
+"2","Fair or poor perceived mental health","","18","15","",,
+"2","Yes, needed mental health care","","20","19","",,
+"2","No, did not need mental health care","","21","19","",,
+"2","Sought mental health care, and needs were fully met","","23","22","",,
+"2","Sought mental health care, and needs were partially met","","24","22","",,
+"2","Sought mental health care, and needs were unmet","","25","22","",,
+"2","Did not seek mental health care","","26","22","",,
+"2","Yes, had a prescription for medication","","28","27","",,
+"2","No, did not have a prescription for medication","","29","27","",,
+"2","Did not fill or collect a prescription medication","","31","30","",,
+"2","Skipped doses of prescription medication","","32","30","",,
+"2","Reduced the dosage of prescription medication","","33","30","",,
+"2","Delayed filling or refilling a prescription medication","","34","30","",,
+"2","Other decision due to cost of prescription medications","","35","30","",,
+"2","Did not do any of the above because of the cost of prescription medications","","36","30","",,
+"2","Unable to get new prescription from health care provider","","38","37","",,
+"2","Unable to fill enough prescription due to 30-day limit on prescriptions","","39","37","",,
+"2","Medication not available (for example, shortage)","","40","37","",,
+"2","Other reason unable to fill a prescription when needed","","41","37","",19,
+"2","None of the above","","42","37","",,
+"2","Yes, travelled outside community to access health care services","","44","43","",,
+"2","No, did not travel outside community to access health care services","","45","43","",,
+"2","Yes, reported unfair treatment, racism or discrimination from health care professional","","47","46","",22,
+"2","No, did not report unfair treatment, racism or discrimination from health care professional","","48","46","",,
+"2","Very or somewhat important","","50","49","",,
+"2","Not very important or not important at all","","51","49","",,
+"2","Provide better overall quality of care","","53","52","",,
+"2","Feel respected for culture, beliefs and identity","","54","52","",,
+"2","Feel safer discussing sensitive or traumatic experiences","","55","52","",,
+"2","More likely to seek health care","","56","52","",,
+"2","Other reason","","57","52","",25,
+"2","Prefer not to say","","58","52","",,
+"2","Total, unmet health care needs in the past 12 months","","1","","",9,
+"2","Total, consulted a health care provider for a non-urgent primary health care need in the past 12 months","","4","","",10,
+"2","Total, wait time between requesting care and speaking with a primary health care provider","","7","","",11,
+"2","Total, satisfaction with wait times between requesting care and speaking with a primary health care provider","","11","","",12,
+"2","Total, perceived mental health","","15","","",13,
+"2","Total, needed mental health care","","19","","",14,
+"2","Total, extent to which mental health care needs were met","","22","","",15,
+"2","Total, any prescriptions for medication in the past 12 months","","27","","",16,
+"2","Total, cost-related non-adherence to prescription medication","","30","","",17,
+"2","Total, reasons unable to fill prescription for medication","","37","","",18,
+"2","Total, importance of having health care services that support Indigenous traditional medicines, healing and wellness practices","","49","","",23,
+"2","Total, reasons why having health care services that support Indigenous traditional medicines, healing and wellness practices is important","","52","","",24,
+"2","Total, travelled outside community to access health care services","","43","","",20,
+"2","Total, reported unfair treatment, racism or discrimination from health care professional","","46","","",21,
+"3","First Nations","","1","","",,
+"3","Métis","","2","","",,
+"3","Inuk (Inuit)","","3","","",,
+"4","Men+","","2","1","",5,
+"4","Women+","","3","1","",6,
+"4","Total, gender","","1","","",4,
+"5","Percentage","","1","","",,
+"5","Low 95% confidence interval","","2","","",,
+"5","High 95% confidence interval","","3","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5410","Survey Series on First Nations People, Métis and Inuit"
+
+"Subject Code","Subject Name"
+"41","Indigenous peoples"
+
+"Note ID",Note
+1,"Source: Survey Series on First Nations People, Métis and Inuit - Health Care Access and Experiences 2024."
+2,"The Survey Series on First Nations People, Métis and Inuit is based on a probability panel consisting of individuals who agreed to participate in further studies when they responded to the 2022 Indigenous Peoples Survey. As a result of this methodology, it has a low cumulative response rate, which increases the risk of bias. All estimates in this table should therefore be used with caution."
+3,"Indigenous group refers to whether the person is First Nations (North American Indian), Métis or Inuk (Inuit). A person may be included in more than one of these three specific groups. Aboriginal peoples of Canada (referred to here as Indigenous peoples) are defined in the Constitution Act, 1982, Section 35 (2) as including Indian, Inuit and Métis peoples. The sum of the categories included in this variable does not equal the total population estimate for Indigenous group because a person may have reported more than one Indigenous group (for example, a person could have self-identified as both First Nations and Métis). Excluded from the survey’s coverage are persons living on reserves and Indigenous settlements."
+4,"Given that the non-binary population is small, data aggregation to a two-category gender variable is sometimes necessary to protect the confidentiality of responses. In these cases, individuals in the category “non-binary persons” are distributed into the other two gender categories and are denoted by the “+” symbol."
+5,"This category includes men (or boys), as well as some non-binary persons."
+6,"This category includes women (or girls), as well as some non-binary persons."
+7,"The confidence interval illustrates the degree of variability associated with an estimate. A wider confidence interval indicates higher variability, meaning that the estimate should be interpreted with due caution. The 95% confidence interval of an estimate means that if the survey were repeated over and over, the confidence interval would cover the true population value 95% of the time (or 19 times out of 20). Bootstrapping techniques were used to produce the 95% confidence intervals."
+8,"Estimates flagged with the letter E should be used with caution. In these cases, data users should use the 95% confidence interval to assess whether the quality of the estimate is sufficient. The letter F indicates estimates that are too unreliable to be published."
+9,"Respondents were asked, “During the past 12 months, was there ever a time when you felt that you needed health care, but you did not receive it?”"
+10,"Respondents were asked, “In the past 12 months, did you consult a health care provider for a non-urgent primary health care need?”"
+11,"Respondents who had accessed non-urgent care in the past 12 months were asked, “How long did you have to wait between the time you requested care and when you spoke with a health care provider?”"
+12,"Respondents who had accessed non-urgent care in the past 12 months were asked, “How satisfied were you with the time you had to wait between requesting care and when you spoke with a primary health care provider?”"
+13,"Respondents were asked, “In general, how is your mental health?”, where possible response categories included “Excellent,” “Very good,” “Good,” “Fair” and “Poor.”"
+14,"Respondents were asked, "During the past 12 months, was there ever a time when you felt that you needed mental health care, whether or not you received it?""
+15,"Respondents who reported that they had needed mental health care were asked, “To what extent do you feel your mental health care needs were met?”"
+16,"Respondents were asked, "In the past 12 months, did you have any prescriptions for medication?""
+17,"Respondents who reported that they had medications prescribed to them were asked, “In the past 12 months, did you do any of the following because of the cost of your prescription medications?”"
+18,"Respondents who reported that they had medications prescribed to them were asked, “Were you unable to fill a prescription when you needed it because of any of the following problems?”"
+19,"This category includes those who reported they were “unable to fill prescription because of challenges going to the pharmacy” and “pharmacist changing dosage or brand of medication.”"
+20,"Respondents who reported that they had accessed health care services in the past 12 months were asked, “In the past 12 months, did you have to travel outside your community, village, town, or city where you had to be away from home for at least one night to access any health care services?”"
+21,"Respondents were asked, "In the past 12 months, did you experience any unfair treatment, racism or discrimination from any health care professional based on any of the following?""
+22,"This category includes those who reported “yes” to any combination of experiences of unfair treatment, racism or discrimination because of issues such as “First Nations, Métis, or Inuit identity;” “ethnicity or culture;” or “language.”"
+23,"Respondents were asked, "How important is it for you to have health care services that support [Indigenous] traditional medicines, healing and wellness practices in the Canadian health care system?""
+24,"Respondents who reported that it was “very important” or “somewhat important” to have health care services that support Indigenous traditional medicines, healing and wellness practices were asked, “Why is it important for you to have health care services that support [First Nations, Métis or Inuit] traditional medicines, healing and wellness practices?”"
+25,"This category includes those who reported that it was important “to have access to alternative health care approaches” and that it was important “for cultural preservation.”"
+
+"Correction ID","Correction Date","Correction Note"

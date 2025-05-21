@@ -1,0 +1,103 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Long-term health problems (self-reported) by Aboriginal identity, age group and sex",41100041,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110004101",1;2;3;4;5,"CURRENT - a cube available to the public and that is current",Occasional,2017-01-01,2017-01-01,6
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Aboriginal identity",4;8,
+3,"Age group",11,
+4,Sex,,
+5,"Long-term health problems (self-reported)",3;12;13,
+6,Statistics,16;17;18,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+1,"Atlantic provinces",[1],2,1,,6,
+1,Quebec,[24],3,1,,,
+1,Ontario,[35],4,1,,,
+1,"Prairie provinces",[1],5,1,,,
+1,Manitoba,[46],6,5,,,
+1,Saskatchewan,[47],7,5,,,
+1,Alberta,[48],8,5,,,
+1,"British Columbia",[59],9,1,,,
+1,Territories,[4],10,1,,,
+1,Yukon,[60],11,10,,7,
+1,"Northwest Territories",[61],12,10,,7,
+1,Nunavut,[62],13,10,,,
+2,"Total, Aboriginal identity",,1,,,,
+2,"First Nations (North American Indian)",,2,1,,,
+2,"First Nations (North American Indian), Registered or Treaty Indian",,3,2,,9,
+2,"First Nations (North American Indian), not a Registered or Treaty Indian",,4,2,,9,
+2,Métis,,5,1,,,
+2,"Inuk (Inuit)",,6,1,,,
+2,"Aboriginal responses not included elsewhere",,7,1,,10,
+3,"Total, 15 years and over",,1,,,,
+3,"15 to 24 years",,2,1,,,
+3,"25 to 54 years",,3,1,,,
+3,"25 to 34 years",,4,3,,,
+3,"35 to 44 years",,5,3,,,
+3,"45 to 54 years",,6,3,,,
+3,"55 years and over",,7,1,,,
+4,"Both sexes",,1,,,,
+4,Males,,2,1,,,
+4,Females,,3,1,,,
+5,"Total, long-term health problems (self-reported)",,1,,,,
+5,"With no long-term health problem",,2,1,,12,
+5,"With long-term health problems",,3,1,,12,
+5,"With long-term health problem: asthma",,4,3,,,
+5,"With long-term health problem: arthritis (excluding fibromyalgia)",,5,3,,,
+5,"With long-term health problem: high blood pressure",,6,3,,,
+5,"With long-term health problem: mood disorder",,7,3,,,
+5,"With long-term health problem: anxiety disorder",,8,3,,,
+5,"With long-term health problem: other long-term condition",,9,3,,14,
+5,"Not specified if has a long-term health problem",,10,1,,12;15,
+6,"Number of persons",,1,,,16;17;18,
+6,Percent,,2,,,13;16;17;18,
+6,"Low 95% confidence interval",,3,,,16;18,
+6,"High 95% confidence interval",,4,,,16;18,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3250,"Aboriginal Peoples Survey"
+
+"Subject Code","Subject Name"
+41,"Indigenous peoples"
+
+"Note ID",Note
+1,"Source: Aboriginal Peoples Survey 2017."
+2,"The target population of the 2017 Aboriginal Peoples Survey (APS) was composed of the Aboriginal identity population of Canada, 15 years of age and over as of January 15, 2017, living in private dwellings excluding persons living on Indian reserves and settlements and in certain First Nations communities in Yukon and the Northwest Territories (NWT)."
+3,"""Long-term health problems (self-reported)"" refers to whether or not a person has reported that a health professional has diagnosed him or her with a long-term or chronic medical condition. Long-term or chronic conditions are those which have lasted, or are expected to last, six months or more."
+4,"Aboriginal identity includes persons living off reserve who reported being an Aboriginal person, that is, First Nations (North American Indian), Métis or Inuk (Inuit) and/or those who reported Registered or Treaty Indian status, that is registered under the Indian Act of Canada, and/or those who reported membership in a First Nation or Indian band. Aboriginal peoples of Canada are defined in the Constitution Act, 1982, Section 35 (2) as including the Indian, Inuit and Métis peoples of Canada. The sum of the categories included in this variable is greater than the total population estimate for Aboriginal identity because a person may have reported more than one Aboriginal identity: for example, a person could self-identify as both First Nations and Métis."
+5,"This table is similar to Table <A HREF=""https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110000601"">41-10-0006-01</A>, which contains data from the 2012 Aboriginal Peoples Survey (APS) on long-term health problems. However, data users are cautioned to be aware of the differences between the variables and age ranges in Table <A HREF=""https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110000601"">41-10-0006-01</A> and the current table when comparing 2017 APS data with data from previous cycles."
+6,"Atlantic provinces include Newfoundland and Labrador, Prince Edward Island, Nova Scotia, and New Brunswick."
+7,"The target population of the 2017 Aboriginal Peoples Survey (APS) focused solely on the off-reserve population, excluding those living on Indian reserves and settlements and in certain First Nations communities in Yukon and Northwest Territories."
+8,"The sum of the categories included in this variable does not equal the total population estimate for Aboriginal identity because a person may have reported more than one Aboriginal identity (for example, a person could have self-identified as both First Nations and Métis)."
+9,"Registered or Treaty Indian status refers to whether or not a person reported being a Registered or Treaty Indian. Registered Indians are persons who are registered under the Indian Act of Canada. Treaty Indians are persons who belong to a First Nation or Indian band that signed a treaty with the Crown. Registered or Treaty Indians are sometimes also called Status Indians."
+10,"""Aboriginal responses not included elsewhere"" consists of respondents who did not self-identify as Aboriginal persons but who identified as Status Indians (Registered or Treaty Indians as defined by the Indian Act of Canada) or members of a First Nation or Indian band. This is a new category for the 2017 Aboriginal Peoples Survey (APS). In 2012, persons in this category were imputed to have First Nations (North American Indian) identity."
+11,"Age is derived from the respondent's date of birth and from the Aboriginal Peoples Survey reference date of January 15, 2017. The reference date corresponds approximately to the beginning of data collection for the survey."
+12,"Respondents were asked a series of questions on long-term health problems; each question asked whether the respondent had a specific long-term health problem, to which the respondent or proxy could answer ""Yes"" or ""No"". The sum of the categories of specific long-term health problems is greater than the total population estimate for ""With long-term health problems"" because a person may have reported more than one long-term health problem."
+13,"All percentages for the variable ""long-term health problems (self-reported)"" are calculated using the number of persons in ""total, long-term health problems (self-reported)"" as denominator."
+14,"Other long-term health conditions include diabetes (with the exception of gestational diabetes; that is, diabetes that had only been diagnosed during pregnancy), chronic bronchitis, emphysema, chronic obstructive pulmonary disease (COPD), heart disease, intestinal or stomach ulcers, or bowel disorder."
+15,"""Not specified if has a long-term health problem"" consists of item non-response (""Refusal"", ""Don't know"", and ""Not stated"")."
+16,"Bootstrapping techniques were used to produce the coefficient of variation (CV)."
+17,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified by an (E) and should be interpreted with caution."
+18,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed (F) due to extreme sampling variability."
+
+"Correction ID","Correction Date","Correction Note"
+
+
